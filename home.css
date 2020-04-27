@@ -9,7 +9,7 @@ p.ex1 {
     font-family: 'Archivo Black', sans-serif;
     text-align: center;
     color:darkgreen;
-    font-size: 100px;
+    font-size: 90px;
     line-height: -50;
 }
 a{
@@ -32,6 +32,8 @@ h1 {
   margin-right: auto;
 }
 
-img{
-margin-top:-590;
+div.centeredImage {
+margin: 0px auto;
+position:fixed;
+top:100px;
 }
