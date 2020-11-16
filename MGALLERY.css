@@ -1,0 +1,100 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    /*    100% of the viewport height*/
+    padding: 10px;
+    background-color: floralwhite;
+
+}
+
+h1 {
+    font-family: sweet-square-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    color: #1a1500;
+    font-size: 100px;
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+
+}
+
+p {
+    font-family: sweet-square-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    color: #1a1500;
+    font-size: 50px;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.portrait {
+    width: 150em;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.landscape{
+    width: 80em;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+.columns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  width:1080px;
+    padding: 90px;
+       
+}
+.flex{
+     display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-content: center;
+}
+#wrapper .text {
+position:relative;
+bottom:10px;
+left:0px;
+visibility:hidden;
+}
+
+#wrapper:hover .text {
+visibility:visible;
+}
+
+/*
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+
+}
+*/
+
+
+/*
+    animation properties
+    transition: 1s;
+*/
+}
+
+
+/*
+a:hover {
+    background: black;
+    color: white;
+}
+*/
