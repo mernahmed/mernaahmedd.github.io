@@ -1,0 +1,82 @@
+body {
+    background-color: floralwhite;
+
+}
+
+
+p.ex1 {
+    font-family: sweet-square-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+    color: #1a1500;
+    font-size: 200px;
+    margin: 20px 50px 0 50px;
+    max-width: 100%;
+    height: auto;
+    
+
+
+}
+
+
+
+h1 {
+    font-family: adobe-naskh, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:500px;
+    text-transform: uppercase;
+    line-height: 2;
+    text-align: center;
+    color: yellowgreen;
+    max-width: 100%;
+    margin-top: -300px;
+    margin-bottom: -1000px;
+    position: absolute;
+    right: 1080px;
+
+}
+
+h2 {
+   text-align: left;
+    display: table;
+    margin: 100px;
+    max-width: 100%;
+    height: auto;
+   
+}
+
+a {
+    display: inline;
+    font-family: bc-liguria, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 150px;
+    text-transform: none;
+    line-height: 1;
+    color: black;
+    
+
+}
+
+a:hover {
+
+    color: yellowgreen;
+}
+
+.mainpage{
+width: 2000px;
+position: absolute;
+right: }
+
+img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+
