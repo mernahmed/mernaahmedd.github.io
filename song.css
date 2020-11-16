@@ -1,0 +1,134 @@
+body {
+    background-color: #ffdbd9;
+    margin: auto;
+    padding: inherit;
+    padding: 400px;
+}
+
+
+p.ex1 {
+    font-family: taurunum-ferrum-steel, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none; /* no underline */
+    color: red;
+    font-size: 100px;
+    border: 1px solid red;
+   border-radius: 50%;
+    background-color: powderblue;
+   background-position: center; 
+  transition: background-color .5s;
+
+   
+ 
+}
+a {
+  color: red;
+  text-decoration: none; /* no underline */
+}
+
+p.ex1:hover {
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family: taurunum-ferrum-steel, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 210px;
+    text-align: center;
+    color: red;
+     margin: -10px;
+    
+}
+
+
+h2 {
+    /*
+    font-family: taurunum-ferrum-steel, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+*/
+    font-family: apotek-comp, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 110px;
+    text-align: center;
+    color: floralwhite;
+     margin: -10px;
+}
+
+
+h3 {
+    font-family: apotek-comp, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 110px;
+    text-align: center;
+    color: floralwhite;
+     margin: -10px;
+}
+
+h4 {
+    font-family: taurunum-ferrum-steel, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 210px;
+    text-align: center;
+    color: red;
+     margin: -10px;
+}
+
+h5 {
+    font-family: taurunum-ferrum-steel, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 300px;
+    text-align: center;
+    color: floralwhite;
+    margin: -30px;
+    background-image: url("unnamed%20(3).png");
+     background-repeat: no-repeat;
+    z-index: auto;
+
+}
+.typewriter h5 {
+    font-family: taurunum-ferrum-steel, sans-serif;
+    text-align: center;
+    padding: 50px;
+    font-size: 210px;
+    color: floralwhite;
+    overflow: hidden;
+    border-right: .50em solid floralwhite;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .10em;
+    animation:
+        typing 3.5s steps(30, end),
+        blinking-cursor .5s step-end infinite;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blinking-cursor {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: powderblue;
+    }
+
+
